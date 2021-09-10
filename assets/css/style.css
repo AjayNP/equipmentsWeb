@@ -389,4 +389,5 @@ footer .head{font-size: 30px; font-weight: 600; border-bottom: 1px solid #174283
   .search-container form .inner-form .input-field.third-wrap .btn-search{margin: 10px 0;}
   .search-container form .inner-form .input-field{height: auto; width: 100% !important;}
   .search-container form .inner-form .input-field .btn-search{height: 36px !important;}
+  .featured-carousel .owl-dots{bottom: 110px;}
 }
