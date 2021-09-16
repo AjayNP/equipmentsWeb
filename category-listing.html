@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Equipments</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap css file linked -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/owl.theme.default.css">
+    <!-- fontawesome file -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <!-- Thumbnail Slider -->
+    <link rel="stylesheet" href="assets/css/flexslider.css" />
+    <!-- Custom css file linked -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <header class="container">
+        <div class="header">
+            <div class="header-top">
+                <div class="row">
+                    <div class="col-lg-2 col-md-3 col-sm-12 col-xs-12 "> <a href="index.html"
+                            class="pull-left logo"><img src="assets/images/logo.svg" class="img-fluid" alt=""></a></div>
+                    <div class="col-lg-10 col-md-9 col-sm-12 col-xs-12">
+                        <ul class="left-top-nav float-right">
+                            <li> <a href="#">SUBSCRIBE</a></li>
+                            <li> <a href="#">SUPPORT</a></li>
+                            <li> <a href="#">SIGN UP</a></li>
+                            <li class="post-btn-bdr"><span></span><span></span><span></span><span></span> <a href="#"
+                                    class="post-add-btn" data-toggle="modal" data-target="#exampleModal"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--close top header-->
+        <!--start navigation header-->
+        <div class="mid-header clearfix">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav w-100">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">KITCHEN <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">ELECTRONICS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">APPLIANCE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">KITCHEN</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">SUPER MARKET</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">APPLIENCES</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!--close navigation header-->
+    </header>
+    <!-- Header Closed -->
+
+    <!-- Category List Starts-->
+    <div class="container category-lists">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="filter-container">
+                    <h3>FILTER RESULTS</h3>
+                    <form>
+                        <div class="form-group">
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option>Location</option>
+                                <option value="loc1">1</option>
+                                <option value="loc2">2</option>
+                                <option value="loc3">3</option>
+                                <option value="loc4">4</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option>Choose Category</option>
+                                <option value="loc1">1</option>
+                                <option value="loc2">2</option>
+                                <option value="loc3">3</option>
+                                <option value="loc4">4</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option>Choose Sub Category</option>
+                                <option value="loc1">1</option>
+                                <option value="loc2">2</option>
+                                <option value="loc3">3</option>
+                                <option value="loc4">4</option>
+                            </select>
+                        </div>
+                        <div class="form-group price-filter">
+                            <label>PRICE</label>
+                            <div>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>Minimum</option>
+                                    <option value="loc1">1</option>
+                                    <option value="loc2">2</option>
+                                    <option value="loc3">3</option>
+                                    <option value="loc4">4</option>
+                                </select>
+                                <span> To</span>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>4000+</option>
+                                    <option value="loc1">1</option>
+                                    <option value="loc2">2</option>
+                                    <option value="loc3">3</option>
+                                    <option value="loc4">4</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                    Exclude Sold Out
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group mb-0">
+                            <button class="btn filter-btn">SEARCH</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h3>KITCHEN EQUIPMENTS FOR SALE ONLINE IN DUBAI, UAE</h3>
+                    </div>
+                    <div class="col-lg-6"><input type="text" class="form-control search-filter" placeholder="Search" />
+                    </div>
+                    <div class="col-lg-6 text-right">
+                        <label class="d-inline-block select-label">Sort by:</label>
+                        <select class="form-control d-inline-block search-sort">
+                            <option>Default</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-4">
+                        <label class="sold-out">SOLD OUT</label>
+                        <div class="featured-carousel owl-carousel owl-theme wow fadeInUp">
+                            <div>
+                                <a href="" class="fa fa-heart-o"></a>
+                                <img src="assets/images/featured-product.png" alt="Featured Product">
+                                <div class="row">
+                                    <div class="col-lg-7">
+                                        <p class="product-name">3 Seater sofa set</p>
+                                        <span>Moderan Furniture, Steel</span>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <p class="price">AED 11,000</p>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <p class="location-marker"><i class="fa fa-map-marker"></i> Hayat Townhouses,
+                                            Town Square</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <a class="fa fa-heart-o"></a>
+                                <img src="assets/images/featured2.png" alt="Featured Product">
+                                <div class="row">
+                                    <div class="col-lg-7">
+                                        <p class="product-name">3 Seater sofa set</p>
+                                        <span>Moderan Furniture, Steel</span>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <p class="price">AED 11,000</p>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <p class="location-marker"><i class="fa fa-map-marker"></i> Hayat Townhouses,
+                                            Town Square</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <a class="fa fa-heart-o"></a>
+                                <img src="assets/images/featured-product.png" alt="Featured Product">
+                                <div class="row">
+                                    <div class="col-lg-7">
+                                        <p class="product-name">3 Seater sofa set</p>
+                                        <span>Moderan Furniture, Steel</span>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <p class="price">AED 11,000</p>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <p class="location-marker"><i class="fa fa-map-marker"></i> Hayat Townhouses,
+                                            Town Square</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <label class="sold-out">SOLD OUT</label>
+                        <div class="featured-carousel owl-carousel owl-theme wow fadeInUp">
+                            <div>
+                                <a href="" class="fa fa-heart-o"></a>
+                                <img src="assets/images/featured-product.png" alt="Featured Product">
+                                <div class="row">
+                                    <div class="col-lg-7">
+                                        <p class="product-name">3 Seater sofa set</p>
+                                        <span>Moderan Furniture, Steel</span>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <p class="price">AED 11,000</p>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <p class="location-marker"><i class="fa fa-map-marker"></i> Hayat Townhouses,
+                                            Town Square</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <a class="fa fa-heart-o"></a>
+                                <img src="assets/images/featured2.png" alt="Featured Product">
+                                <div class="row">
+                                    <div class="col-lg-7">
+                                        <p class="product-name">3 Seater sofa set</p>
+                                        <span>Moderan Furniture, Steel</span>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <p class="price">AED 11,000</p>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <p class="location-marker"><i class="fa fa-map-marker"></i> Hayat Townhouses,
+                                            Town Square</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <a class="fa fa-heart-o"></a>
+                                <img src="assets/images/featured-product.png" alt="Featured Product">
+                                <div class="row">
+                                    <div class="col-lg-7">
+                                        <p class="product-name">3 Seater sofa set</p>
+                                        <span>Moderan Furniture, Steel</span>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <p class="price">AED 11,000</p>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <p class="location-marker"><i class="fa fa-map-marker"></i> Hayat Townhouses,
+                                            Town Square</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <label class="sold-out">SOLD OUT</label>
+                        <div class="featured-carousel owl-carousel owl-theme wow fadeInUp">
+                            <div>
+                                <a href="" class="fa fa-heart-o"></a>
+                                <img src="assets/images/featured-product.png" alt="Featured Product">
+                                <div class="row">
+                                    <div class="col-lg-7">
+                                        <p class="product-name">3 Seater sofa set</p>
+                                        <span>Moderan Furniture, Steel</span>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <p class="price">AED 11,000</p>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <p class="location-marker"><i class="fa fa-map-marker"></i> Hayat Townhouses,
+                                            Town Square</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <a class="fa fa-heart-o"></a>
+                                <img src="assets/images/featured2.png" alt="Featured Product">
+                                <div class="row">
+                                    <div class="col-lg-7">
+                                        <p class="product-name">3 Seater sofa set</p>
+                                        <span>Moderan Furniture, Steel</span>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <p class="price">AED 11,000</p>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <p class="location-marker"><i class="fa fa-map-marker"></i> Hayat Townhouses,
+                                            Town Square</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <a class="fa fa-heart-o"></a>
+                                <img src="assets/images/featured-product.png" alt="Featured Product">
+                                <div class="row">
+                                    <div class="col-lg-7">
+                                        <p class="product-name">3 Seater sofa set</p>
+                                        <span>Moderan Furniture, Steel</span>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <p class="price">AED 11,000</p>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <p class="location-marker"><i class="fa fa-map-marker"></i> Hayat Townhouses,
+                                            Town Square</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <label class="sold-out">SOLD OUT</label>
+                        <div class="featured-carousel owl-carousel owl-theme wow fadeInUp">
+                            <div>
+                                <a href="" class="fa fa-heart-o"></a>
+                                <img src="assets/images/featured-product.png" alt="Featured Product">
+                                <div class="row">
+                                    <div class="col-lg-7">
+                                        <p class="product-name">3 Seater sofa set</p>
+                                        <span>Moderan Furniture, Steel</span>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <p class="price">AED 11,000</p>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <p class="location-marker"><i class="fa fa-map-marker"></i> Hayat Townhouses,
+                                            Town Square</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <a class="fa fa-heart-o"></a>
+                                <img src="assets/images/featured2.png" alt="Featured Product">
+                                <div class="row">
+                                    <div class="col-lg-7">
+                                        <p class="product-name">3 Seater sofa set</p>
+                                        <span>Moderan Furniture, Steel</span>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <p class="price">AED 11,000</p>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <p class="location-marker"><i class="fa fa-map-marker"></i> Hayat Townhouses,
+                                            Town Square</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <a class="fa fa-heart-o"></a>
+                                <img src="assets/images/featured-product.png" alt="Featured Product">
+                                <div class="row">
+                                    <div class="col-lg-7">
+                                        <p class="product-name">3 Seater sofa set</p>
+                                        <span>Moderan Furniture, Steel</span>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <p class="price">AED 11,000</p>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <p class="location-marker"><i class="fa fa-map-marker"></i> Hayat Townhouses,
+                                            Town Square</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="featured-carousel owl-carousel owl-theme wow fadeInUp">
+                            <div>
+                                <a href="" class="fa fa-heart-o"></a>
+                                <img src="assets/images/featured-product.png" alt="Featured Product">
+                                <div class="row">
+                                    <div class="col-lg-7">
+                                        <p class="product-name">3 Seater sofa set</p>
+                                        <span>Moderan Furniture, Steel</span>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <p class="price">AED 11,000</p>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <p class="location-marker"><i class="fa fa-map-marker"></i> Hayat Townhouses,
+                                            Town Square</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <a class="fa fa-heart-o"></a>
+                                <img src="assets/images/featured2.png" alt="Featured Product">
+                                <div class="row">
+                                    <div class="col-lg-7">
+                                        <p class="product-name">3 Seater sofa set</p>
+                                        <span>Moderan Furniture, Steel</span>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <p class="price">AED 11,000</p>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <p class="location-marker"><i class="fa fa-map-marker"></i> Hayat Townhouses,
+                                            Town Square</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <a class="fa fa-heart-o"></a>
+                                <img src="assets/images/featured-product.png" alt="Featured Product">
+                                <div class="row">
+                                    <div class="col-lg-7">
+                                        <p class="product-name">3 Seater sofa set</p>
+                                        <span>Moderan Furniture, Steel</span>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <p class="price">AED 11,000</p>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <p class="location-marker"><i class="fa fa-map-marker"></i> Hayat Townhouses,
+                                            Town Square</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="featured-carousel owl-carousel owl-theme wow fadeInUp">
+                            <div>
+                                <a href="" class="fa fa-heart-o"></a>
+                                <img src="assets/images/featured-product.png" alt="Featured Product">
+                                <div class="row">
+                                    <div class="col-lg-7">
+                                        <p class="product-name">3 Seater sofa set</p>
+                                        <span>Moderan Furniture, Steel</span>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <p class="price">AED 11,000</p>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <p class="location-marker"><i class="fa fa-map-marker"></i> Hayat Townhouses,
+                                            Town Square</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <a class="fa fa-heart-o"></a>
+                                <img src="assets/images/featured2.png" alt="Featured Product">
+                                <div class="row">
+                                    <div class="col-lg-7">
+                                        <p class="product-name">3 Seater sofa set</p>
+                                        <span>Moderan Furniture, Steel</span>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <p class="price">AED 11,000</p>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <p class="location-marker"><i class="fa fa-map-marker"></i> Hayat Townhouses,
+                                            Town Square</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <a class="fa fa-heart-o"></a>
+                                <img src="assets/images/featured-product.png" alt="Featured Product">
+                                <div class="row">
+                                    <div class="col-lg-7">
+                                        <p class="product-name">3 Seater sofa set</p>
+                                        <span>Moderan Furniture, Steel</span>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <p class="price">AED 11,000</p>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <p class="location-marker"><i class="fa fa-map-marker"></i> Hayat Townhouses,
+                                            Town Square</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination justify-content-center">
+                                <li class="page-item disabled">
+                                    <a class="page-link prev" href="#" tabindex="-1"></a>
+                                </li>
+                                <li class="page-item"><a class="page-link active" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                <li class="page-item">
+                                    <a class="page-link next" href="#"></a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Category List Ends -->
+    <!-- Footer Starts -->
+    <footer class="p-0">
+        <div class="footer-links">
+            <div class="container">
+                <img src="assets/images/logo.svg" alt="footer-logo" class="img-fluid" />
+                <nav>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Advertising</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </nav>
+                <ul class="social-links">
+                    <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Ends -->
+    <!-- Post AD Modal Starts-->
+    <!-- Modal -->
+    <div class="modal fade login-modal" id="exampleModal" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">X</span>
+                </button>
+                <div class="modal-body p-0">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="login-texture"></div>
+                            <div class="login-left-panel">
+                                <ul>
+                                    <li>
+                                        <figure>
+                                            <img src="assets/images/manage.svg" />
+                                        </figure>
+                                        <div>
+                                            <label>
+                                                Manage Your Inquiries
+                                            </label>
+                                            <span>
+                                                Track all your leads at one place by logging in to your account
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="assets/images/transact.svg" />
+                                        </figure>
+                                        <div>
+                                            <label>
+                                                Transact online with buyers and sellers
+                                            </label>
+                                            <span>
+                                                Check and respond to chats, replies, offers and more
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <figure>
+                                            <img src="assets/images/notification.svg" />
+                                        </figure>
+                                        <div>
+                                            <label>
+                                                Notification and alert
+                                            </label>
+                                            <span>
+                                                Get matching alerts for the products/services you are looking for
+                                            </span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="login-right-panel">
+                                <h3>LOGIN TO POST YOUR AD</h3>
+                                <p>Whether you have a question about features, our team is ready to answer all your
+                                    questions</p>
+                                <p class="social-login"><a href="#"><i class="fa fa-facebook"></i></a> <a href="#"><i
+                                            class="fa fa-google"></i></a> <a href="#"><i class="fa fa-apple"></i></a>
+                                </p>
+                                <p class="login-type"><a href="#">Login with OTP</a><a href="#">OR</a><a href="#">Login
+                                        with Email</a></p>
+                                <form>
+                                    <div class="form-group">
+                                        <div class="input-group mb-2">
+                                            <div class="input-group-prepend">
+                                                <div class="input-group-text"><img src="assets/images/email.svg"> </div>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Email">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="input-group mb-2">
+                                            <div class="input-group-prepend">
+                                                <div class="input-group-text"><img src="assets/images/lock.svg"></div>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Password">
+                                            <div class="input-group-append">
+                                                <div class="input-group-text"><img src="assets/images/eye-pwd.svg">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <a href="#" class="forgot-pwd">Forgot your password?</a>
+                                    </div>
+                                    <div class="form-group">
+                                        <button class="btn btn-login">SUBMIT REQUEST</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Post AD Modal Ends-->
+
+
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/owl.carousel.js"></script>
+    <!-- Flexslider plugin -->
+    <script src="assets/js/jquery.flexslider.js"></script>
+
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/choices.js"></script>
+
+    <script>
+        $('.humburger').click(function () {
+            $(this).next('ul').slideToggle();
+        });
+
+        $('.dropdown-menu').mouseover(function (e) {
+            $(this).prev('a.dropdown-toggle').addClass("hover");
+        });
+        $('.dropdown-menu').mouseout(function (e) {
+            $(this).prev('a.dropdown-toggle').removeClass("hover");
+        });
+        $(window).on('load', function () {
+            $('.flexslider').flexslider({
+                animation: "slide",
+                controlNav: "thumbnails",
+                start: function (slider) {
+                    $('body').removeClass('loading');
+                }
+            });
+            $('.flex-next').html(' ');
+        })
+    </script>
+
+
+
+</body>
+
+</html>
