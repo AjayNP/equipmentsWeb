@@ -624,7 +624,8 @@ section.map-section {padding: 0 0 40px;}
   .why-us img{width: 100%;}
 .why-us .row{margin-bottom: 0;}
 .contact_page_form h2{font-size: 26px;}
-
+.inner-banner-content h1{font-size: 36px;}
+.inner-banner-content p{font-size: 28px;}
 }
 @media only screen and (max-width: 580px) {
   header{margin-top: 5px; border-radius: 0}
