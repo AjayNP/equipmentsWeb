@@ -626,6 +626,7 @@ section.map-section {padding: 0 0 40px;}
 .contact_page_form h2{font-size: 26px;}
 .inner-banner-content h1{font-size: 36px;}
 .inner-banner-content p{font-size: 28px;}
+.my-ads-tabs{margin-left: 0;}
 }
 @media only screen and (max-width: 580px) {
   header{margin-top: 5px; border-radius: 0}
@@ -664,5 +665,9 @@ section.map-section {padding: 0 0 40px;}
 .search-sort{width: calc(100% - 60px); margin-bottom: 30px; float: right;}
 .page-link{font-size: 14px; height: 40px; width: 40px; line-height: 28px;}
 .login-right-panel{padding: 40px 25px;}
-
+.value-text{font-size: 14px; padding: 25px 40px;}
+.value-text:before{left: 5px;}
+}
+@media only screen and (max-width: 425px) {
+  .navbar-toggler{padding: .25rem .35rem; top: -70px; right: -10px;}
 }
