@@ -455,7 +455,7 @@ span.forgot-pwd  a{color: #113976; font-weight: 700;}
 .filter-container .form-check label{font-family: Poppins, sans-serif; font-weight: 400; color: #444; margin-top: 2px;}
 .filter-container .filter-btn{color: #fff; font-weight: 700; background-color: #113976; width: 100%; border-radius: 100px; margin: 30px 0 10px 0;}
 .search-filter{background-color: #F8F8F8; border: none; margin-bottom: 30px; max-width: 240px; height: 40px; border-radius: 50px; padding: 0 22px;font-family: Poppins, sans-serif; font-weight: 400;}
-.search-sort{width: 120px; height: 40px; font-family: Poppins, sans-serif; font-weight: 400;  background-color: #F8F8F8; border-radius: 50px; border: none; background-image: url(../images/select-arrow.png); background-position: 94% center; background-repeat: no-repeat; -webkit-appearance: none;}
+.search-sort{width: 120px; height: 40px; font-family: Poppins, sans-serif; font-weight: 400;  background-color: #F8F8F8; border-radius: 50px; border: none; background-image: url(../images/select-arrow.png); background-position: 94% center; background-repeat: no-repeat; -webkit-appearance: none; padding-left: 15px;padding-right: 15px;}
 .select-label{font-size: 14px; font-weight: 700; color: #444;}
 /*=====contact-css=====*/
 .inner-banner {display: flex;align-items: center;min-height:350px; margin-top: -51px; background-size: cover;background-position: 50% 50%;background-repeat: no-repeat;} 
@@ -578,6 +578,45 @@ section.map-section {padding: 0 0 40px;}
 .why-us .tick{position: absolute; top: -15px; right: 0;}
 /* ===========About Us Ends================== */
 
+.login-dropdown .dropdown-menu{border-radius: 6px; box-shadow: 0px 0px 10px #00000014; border: 1px solid transparent; padding: 10px 18px 24px;}
+.login-dropdown .dropdown-item{font-family: Poppins, sans-serif; font-weight: 400; padding: 3px 0; text-transform: initial;}
+.login-dropdown .dropdown-toggle:after{content: none;}
+.login-dropdown .dropdown-item:first-child{padding-top: 0;}
+.login-dropdown .dropdown-item:last-child{padding-bottom: 0;}
+.login-dropdown .dropdown-divider{margin: 0; border-top: 1px solid#ebebeb}
+.login-dropdown  .dropdown-item.active, .login-dropdown .dropdown-item:active, .login-dropdown .dropdown-item:hover, .dropdown-item:focus, .dropdown-item:hover{background-color: #fff; color: #113976;}
+.login-dropdown button{background-color: #113976; color: #fff; font-weight: 600; margin-top: 15px; font-size: 14px; border-radius: 22px; width: 132px; height: 35px; line-height: 22px; font-weight: 400;}
+.login-dropdown button:hover{color: #fff;}
+.ads-tabs{margin-top: 70px;}
+.ads-tabs .my-ads-tabs .btn{height: 70px; line-height: 55px; border-radius: 0; width: 198px; font-size: 24px; font-weight: 700; text-transform: uppercase; margin: 0;}
+.ads-tabs .my-ads-tabs .btn{background-color: #fff; border-radius: 10px 10px 0px 0px;
+}
+.ads-tabs .my-ads-tabs .btn.active{background-color: #f8f8f8; color: #000;}
+.ads-tabs .my-ads-tabs .btn:hover{background-color: #f3f3f3; color: #000;}
+.ads-tabs .my-ads-tabs{margin-bottom: 0;}
+.ads-tabs .tab-content{margin-left: -15px; background-color: #f8f8f8; margin-bottom: 40px; text-align: left;}
+.ads-tabs .tab-content .form-check-label{font-family: Poppins, sans-serif; font-weight: 400; color: #000;}
+.ads-tabs .tab-content select{background-color: #fff;}
+.mR30{margin-right: 30px !important;}
+.ads-grid{display: flex;}
+.ads-grid figure + div{margin-left: 35px;}
+.ads-grid figure img{height: 100px; width: 100px;}
+.ads-grid h2{font-size: 24px; font-weight: 700;}
+.ads-grid p{font-size: 24px; font-weight: 700; color: #BB9437; margin-bottom: 10px;}
+.ads-grid button{margin-top: 0; background-color: #f8f8f8; color: #000; width: 130px; height: 34px; font-weight: 300; font-size: 12px;}
+.ads-grid button:hover, .ads-grid button:focus, .ads-grid button:active{background-color: #113976; color: #fff;}
+.ad-details{background-color: #fff; padding: 30px 35px; margin: 20px 0; box-shadow: 0px 0px 15px #0000001A; border-radius: 7px;}
+.ad-details li{font-family: Poppins, sans-serif; font-weight: 400; margin-bottom: 18px;}
+.delete-confirm .btn{width: 180px; height: 60px; font-size: 16px; font-weight: 600; border-radius: 35px !important; background-color: #F8F8F8; margin: 15px}
+.delete-confirm .btn.active, .delete-confirm .btn:hover{background-color: #113976; color: #fff;}
+.add-ad{width: 200px !important; background-color: #113976; color: #fff !important;}
+.table-accordian h3{font-size: 24px; font-family: laca, sans-serif; font-weight: 700; margin-bottom: 18px;}
+.table-accordian .table .thead-dark th{background-color: #113976; border-top: none; border-bottom: none;}
+.table-accordian .table tr{border-bottom: 20px solid #fff}
+.table-accordian .table th{font-weight: 600; font-size: 16px;}
+.table-accordian .table td{border-top: none;background-color: #F8F8F8; padding-top: 25px; padding-bottom: 25px; font-family: Poppins, sans-serif; font-weight: 600; font-size: 14px;}
+.table-accordian .table .thead-dark th:first-child, .table-accordian .table td:first-child{border-top-left-radius: 7px;border-bottom-left-radius: 20px;}
+.table-accordian .table .thead-dark th:last-child, .table-accordian .table td:last-child{border-bottom-right-radius: 20px;border-top-right-radius: 7px;}
 
 @media only screen and (max-width: 991px) {
   .left-top-nav{margin-right: 50px;}

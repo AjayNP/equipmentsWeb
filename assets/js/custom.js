@@ -127,3 +127,11 @@ $('.featured-carousel').owlCarousel({
     nav: true
 });
 
+
+$(document).ready(function(e){
+    $('.table-accordian').hide();
+});
+
+$(document).on('click', '.view-enquiries-modal', function(e){
+    $(this).closest('.ad-details').find('.table-accordian').slideToggle();
+})
