@@ -540,7 +540,7 @@ section.map-section {padding: 0 0 40px;}
 /* ==========Congratulations Starts============= */
   .congrats{text-align: center; padding: 70px 30px;}
   .congrats figure{margin-bottom: 20px;}
-  .congrats h3{font-size: 30px; font-weight: 700; margin-top: 10px; font-family: Poppins, sans-serif; font-weight: 600;}
+  .congrats h3{font-size: 30px; font-weight: 700; margin-top: 10px; font-family: Poppins, sans-serif; font-weight: 600; margin-bottom: 10px;}
   .congrats p{font-size: 24px; font-family: Poppins, sans-serif; font-weight: 400; margin-bottom: 30px;}
   .congrats span{display: block; font-size: 16px; font-family: Poppins, sans-serif; font-weight: 300;}
   .congrats button{height: 60px; width: 280px; border: 1px solid #113976; border-radius: 100px; font-weight: 700; color: #113976; margin-top: 30px;}
@@ -601,7 +601,8 @@ section.map-section {padding: 0 0 40px;}
 .ads-grid{display: flex;}
 .ads-grid figure + div{margin-left: 35px;}
 .ads-grid figure img{height: 100px; width: 100px;}
-.ads-grid h2{font-size: 24px; font-weight: 700;}
+.ads-grid span{font-size: 12px; font-family: Poppins, sans-serif; font-weight: 600; margin-bottom: 5px;}
+.ads-grid h2{font-size: 24px; font-weight: 700; margin-bottom: 7px;}
 .ads-grid p{font-size: 24px; font-weight: 700; color: #BB9437; margin-bottom: 10px;}
 .ads-grid button{margin-top: 0; background-color: #f8f8f8; color: #000; width: 130px; height: 34px; font-weight: 300; font-size: 12px;}
 .ads-grid button:hover, .ads-grid button:focus, .ads-grid button:active{background-color: #113976; color: #fff;}
@@ -615,9 +616,32 @@ section.map-section {padding: 0 0 40px;}
 .table-accordian .table tr{border-bottom: 20px solid #fff}
 .table-accordian .table th{font-weight: 600; font-size: 16px;}
 .table-accordian .table td{border-top: none;background-color: #F8F8F8; padding-top: 25px; padding-bottom: 25px; font-family: Poppins, sans-serif; font-weight: 600; font-size: 14px;}
+.table-accordian .table .thead-dark th img{margin-right: 12px;}
 .table-accordian .table .thead-dark th:first-child, .table-accordian .table td:first-child{border-top-left-radius: 7px;border-bottom-left-radius: 20px;}
 .table-accordian .table .thead-dark th:last-child, .table-accordian .table td:last-child{border-bottom-right-radius: 20px;border-top-right-radius: 7px;}
-
+.seller-info {border-top: 1px solid #E7E7E7; margin-top: 15px; padding-top: 15px;}
+.seller-info h3{font-weight: 700; font-family: laca, sans-serif; margin-bottom: 5px;}
+.seller-info .seller-detail {margin-bottom: 0;}
+.seller-info .seller-detail > div p{font-weight: 700; font-family: laca, sans-serif;}
+.seller-info .seller-detail > div span{margin-bottom: 10px;}
+.seller-info .seller-detail{margin-top: 30px;}
+.seller-info li {font-weight: 700;font-family: laca, sans-serif; font-size: 20px; margin-bottom: 15px;}
+.seller-info li img{margin-right: 15px;}
+.fav-lists .product-name {
+  font-size: 16px;
+  margin-top: 10px; margin-bottom: 0;
+  line-height: 1;font-family: laca, sans-serif;
+  font-weight: 600;
+}
+.fav-lists .product-name + span{font-family: laca, sans-serif; font-size: 14px; font-weight: 500;}
+.fav-lists .price{font-family: laca, sans-serif; font-weight: 600; font-size: 16px;}
+.fav-lists label{font-size: 12px;}
+.fav-lists .location-marker{font-size: 12px; font-weight: 300px;}
+.fav-lists a{    position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #fff;}
+.fav-lists a:hover:before, .featured-carousel > div a:hover:before{content: "\f004";}
 @media only screen and (max-width: 991px) {
   .left-top-nav{margin-right: 50px;}
   .header-top li{font-size: 13px; margin: 0 14px;}
